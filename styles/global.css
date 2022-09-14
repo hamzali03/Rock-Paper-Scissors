@@ -23,3 +23,9 @@ header {
 main {
     padding: 20px;
 }
+
+.rock {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
