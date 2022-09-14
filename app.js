@@ -9,8 +9,12 @@ function loadPage() {}
 
 /* Component */
 // get DOM
+const rockDiv = document.getElementById('rock');
 // display
 // event listeners
+rockDiv.addEventListener('click', () => {
+    console.log('click');
+});
 
 /* Run page load code */
 loadPage();
