@@ -34,15 +34,27 @@
         <main>
             <section id="Scoreboard">
                 <h2>Scoreboard</h2>
-                <ul class="total">
-                    <li>wins: <span id="wins-display">0</span></li>
-                    <li>losses: <span id="losses-display">0</span></li>
-                    <li>total: <span id="total-display">0</span></li>
-                </ul>
+                <p class="scoreboard">
+                    total
+                    <span id="flips-display">3</span>
+                    wins:
+                    <span id="wins-display">2</span>
+                    losses:
+                    <span id="losses-display">1</span>
+                </p>
             </section>
-            <section id="move">
-                <h2>Choose your move!</h2>
-                <div id="rock" class="rock"><img class="rock" src=""</div>
+
+            <section>
+                <h2>Pick!</h2>
+                <button class="item-guess" id="guess-rock"></button>
+                <button class="item-guess" id="guess-paper"></button>
+                <button class="item-guess" id="guess-scissors"></button>
+            </section>
+
+            <section id="results-section">
+                <h2>The turn...</h2>
+                <p id="flip-display">rock</p>
+                <button id="try-again-button">Try Again</button>
             </section>
         </main>
     </body>
